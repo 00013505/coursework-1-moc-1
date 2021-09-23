@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="201" y="89" width="819" height="560" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="181" y="81" width="819" height="560" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -90,10 +90,10 @@
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="205">
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="FunctionList.dll" id="0" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="4" prev="1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Python Script" id="-1" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="PreviewHTML.dll" id="0" curr="4" prev="0" isVisible="no" />
@@ -109,26 +109,26 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
-        <Find name="_MakeLNK" />
-        <Find name="admin" />
-        <Find name="`users`" />
-        <Find name="table user" />
-        <Find name="table users" />
-        <Find name="table Users " />
-        <Find name="Users " />
-        <Find name="Users&apos;" />
-        <Find name="users" />
-        <Find name="admin@" />
+        <Find name="\" />
+        <Find name="\\" />
+        <Find name="uppy" />
+        <Find name="FilePond.cre" />
+        <Find name=" FilePond.cre" />
+        <Find name="pond = FilePond.cre" />
+        <Find name="pond = FilePond.create(input" />
+        <Find name="appeals" />
+        <Find name="question_text" />
+        <Find name="&#x000A;INSERT INTO `laravel_agromy`.`question_texts` (`id`,`name`,`uz`,`created_at`,`updated_at`,`ru`) VALUES (1, &apos;ASK_LANGUAGE&apos;, &apos;Tilni tanlang | &#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435; &#x044F;&#x0437;&#x044B;&#x043A;&apos;, &apos;2021-09-04 13:51:41&apos;, &apos;2021-09-04 13:51:41&apos;, &apos;&#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435; &#x044F;&#x0437;&#x044B;&#x043A; | &#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435; &#x044F;&#x0437;&#x044B;&#x043A;&apos;),(2, &apos;ASK_INDIVIDUAL&apos;, &apos;Subyekt turini tanlang&apos;, &apos;2021-09-04 13:53:00&apos;, &apos;2021-09-15 17:07:17&apos;, &apos;&#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435; &#x0442;&#x0438;&#x043F; &#x0441;&#x0443;&#x0431;&#x044A;&#x0435;&#x043A;&#x0442;&#x0430;&apos;),(3, &apos;ASK_NAME&apos;, &apos;Familiya, ism va otasining ismi&apos;, &apos;2021-09-04 13:56:00&apos;, &apos;2021-09-15 18:09:19&apos;, &apos;&#x0424;&#x0430;&#x043C;&#x0438;&#x043B;&#x0438;&#x044F;, &#x0438;&#x043C;&#x044F; &#x0438; &#x043E;&#x0442;&#x0447;&#x0435;&#x0441;&#x0442;&#x0432;&#x043E;&apos;),(4, &apos;ASK_PHONE&apos;, &apos;Telefon raqamingizni kiriting, XXYYYZZTT formatida, masalan 976667766&apos;, &apos;2021-09-04 13:57:00&apos;, &apos;2021-09-15 18:11:00&apos;, &apos;&#x0412;&#x0432;&#x0435;&#x0434;&#x0438;&#x0442;&#x0435; &#x043A;&#x043E;&#x043D;&#x0442;&#x0430;&#x043A;&#x0442;&#x043D;&#x044B;&#x0439; &#x0442;&#x0435;&#x043B;&#x0435;&#x0444;&#x043E;&#x043D; &#x0432; &#x0444;&#x043E;&#x0440;&#x043C;&#x0430;&#x0442;&#x0435; XXYYYZZTT, &#x043D;&#x0430;&#x043F;&#x0440;&#x0438;&#x043C;&#x0435;&#x0440; 976667766&apos;),(5, &apos;ASK_EMAIL&apos;, &apos;Asosiy elektron po\&apos;chta manzilingizni kiriting&apos;, &apos;2021-09-04 13:58:00&apos;, &apos;2021-09-15 13:41:21&apos;, &apos;&#x0412;&#x0432;&#x0435;&#x0434;&#x0438;&#x0442;&#x0435; &#x043E;&#x0441;&#x043D;&#x043E;&#x0432;&#x043D;&#x043E;&#x0439; E-mail &#x0430;&#x0434;&#x0440;&#x0435;&#x0441;&apos;),(6, &apos;ASK_ACTION&apos;, &apos;Bo\&apos;limni tanlang!&apos;, &apos;2021-09-04 13:58:00&apos;, &apos;2021-09-15 13:25:22&apos;, &apos;&#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435; &#x0434;&#x0435;&#x0439;&#x0441;&#x0442;&#x0432;&#x0438;&#x0435;!&apos;),(7, &apos;ASK_REGION&apos;, &apos;Viloyatni tanlang!&apos;, &apos;2021-09-04 13:59:00&apos;, &apos;2021-09-15 17:51:55&apos;, &apos;&#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435; &#x0440;&#x0435;&#x0433;&#x0438;&#x043E;&#x043D;!&apos;),(8, &apos;ASK_ROUTE&apos;, &apos;Xabaringizga mos keladigan yo\&apos;nalish yoki hududni aniqlang.&apos;, &apos;2021-09-04 13:59:00&apos;, &apos;2021-09-15 17:49:53&apos;, &apos;&#x041E;&#x043F;&#x0440;&#x0435;&#x0434;&#x0435;&#x043B;&#x0438;&#x0442;&#x0435; &#x0441;&#x043E;&#x043E;&#x0442;&#x0432;&#x0435;&#x0442;&#x0441;&#x0442;&#x0432;&#x0443;&#x044E;&#x0449;&#x0435;&#x0435; &#x0432;&#x0430;&#x0448;&#x0435;&#x043C;&#x0443; &#x043E;&#x0431;&#x0440;&#x0430;&#x0449;&#x0435;&#x043D;&#x0438;&#x044E; &#x043D;&#x0430;&#x043F;&#x0440;&#x0430;&#x0432;&#x043B;&#x0435;&#x043D;&#x0438;&#x0435; &#x0438;&#x043B;&#x0438; &#x0441;&#x0444;&#x0435;&#x0440;&#x0443;&apos;),(9, &apos;ASK_QUESTION&apos;, &apos;Sizda qandaydir ma&#x02BC;lumot (video/audio/foto/v.x.) bo&#x02BC;lsa, ilova qilgan holda bizga yuborishingiz mumkin!&apos;, &apos;2021-09-04 14:02:00&apos;, &apos;2021-09-15 13:24:41&apos;, &apos;&#x0415;&#x0441;&#x043B;&#x0438; &#x0443; &#x0432;&#x0430;&#x0441; &#x0435;&#x0441;&#x0442;&#x044C; &#x043A;&#x0430;&#x043A;&#x0430;&#x044F;-&#x043B;&#x0438;&#x0431;&#x043E; &#x0438;&#x043D;&#x0444;&#x043E;&#x0440;&#x043C;&#x0430;&#x0446;&#x0438;&#x044F; (&#x0432;&#x0438;&#x0434;&#x0435;&#x043E; / &#x0430;&#x0443;&#x0434;&#x0438;&#x043E; / &#x0444;&#x043E;&#x0442;&#x043E; / &#x0438; &#x0442;. &#x0414;.), &#x0412;&#x044B; &#x043C;&#x043E;&#x0436;&#x0435;&#x0442;&#x0435; &#x043E;&#x0442;&#x043F;&#x0440;&#x0430;&#x0432;&#x0438;&#x0442;&#x044C; &#x0435;&#x0435; &#x043D;&#x0430;&#x043C; &#x0441; &#x043F;&#x0440;&#x0438;&#x043B;&#x043E;&#x0436;&#x0435;&#x043D;&#x0438;&#x0435;&#x043C;!&apos;),(10, &apos;SAY_INCORRECT_FORMAT&apos;, &apos;Noto\&apos;g\&apos;ri format&apos;, &apos;2021-09-04 14:15:00&apos;, &apos;2021-09-15 13:24:02&apos;, &apos;&#x041D;&#x0435;&#x043F;&#x0440;&#x0430;&#x0432;&#x0438;&#x043B;&#x044C;&#x043D;&#x044B;&#x0439; &#x0444;&#x043E;&#x0440;&#x043C;&#x0430;&#x0442;&apos;),(11, &apos;ASK_VERIFY_PHONE&apos;, &apos;Telefonga yuborilgan smsni tasdiqlang&apos;, &apos;202" />
+        <Replace name="/" />
+        <Replace name=".bat;" />
+        <Replace name=".cmd;" />
+        <Replace name="&#xD83E;&#xDDF0;  " />
+        <Replace name="  " />
+        <Replace name="panels" />
+        <Replace name="d:\\Develop\\Projects\\dbdata\\https" />
+        <Replace name="-" />
         <Replace name="&#xD83D;&#xDCB5;&#x0009; " />
         <Replace name="&#xD83D;&#xDCDA;&#x0009; " />
-        <Replace name="&#xD83E;&#xDDF0;&#x0009; " />
-        <Replace name="&#xD83D;&#xDCD6;&#x0009; " />
-        <Replace name="*" />
-        <Replace name="&#xD83D;&#xDCB5;" />
-        <Replace name="&#xD83D;&#xDCDA;" />
-        <Replace name="&#xD83E;&#xDDF0;" />
-        <Replace name="&#xD83D;&#xDCD6;" />
-        <Replace name="78150" />
     </FindHistory>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
