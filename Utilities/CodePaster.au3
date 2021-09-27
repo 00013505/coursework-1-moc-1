@@ -8,8 +8,6 @@
 #include <MyUDFs\Config.au3>
 
 
-#pragma compile(Out, c:\AsrorZ\TCU\CodePaster.exe)
-
 
 #Region Compile
 
@@ -109,7 +107,9 @@ If $CmdLine[0] > 1 Then
                 _CP_PasteCmd()
 
             Case 'Q'
-                _CP_PasteCode($e_CS)
+				; _CP_PasteTXT()
+				_CP_PasteCode($e_LUA)
+                ; _CP_PasteCode($e_CS)
 
             Case 'H'
                 _CP_PasteHTM()
@@ -582,7 +582,7 @@ Func _CP_PasteCode ($iCodeType)
             EndIf
 
         Case $e_LUA
-            $sExt = '.lua'
+            $sExt = '.yaml'
 
         Case $e_Cmd
             $sExt = '.cmd'
