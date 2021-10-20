@@ -89,7 +89,6 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="205">
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
-            <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="FunctionList.dll" id="0" curr="1" prev="4" isVisible="no" />
@@ -106,21 +105,23 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
-        <Find name="ffs_" />
-        <Find name=".b" />
-        <Find name="ffs" />
-        <Find name="_Conf_" />
-        <Find name="configFolder" />
-        <Find name="\" />
-        <Find name="\\" />
-        <Find name="uppy" />
-        <Find name="FilePond.cre" />
-        <Find name=" FilePond.cre" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="curre" />
+        <Find name="core" />
+        <Find name="hoteler" />
+        <Find name="hotel" />
+        <Find name="booking\hotels" />
+        <Find name="env" />
+        <Find name="\message" />
+        <Find name="Messag" />
+        <Find name=" - " />
+        <Find name="&#x0410;&#x0432;&#x0442;&#x043E;&#x0440;&#x0438;&#x0437;&#x0430;&#x0446;&#x0438;&#x044F; &#x0432; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0435; &#x043F;&#x0440;&#x043E;&#x0438;&#x0437;&#x0432;&#x043E;&#x0434;&#x0438;&#x0442;&#x0441;&#x044F; &#x0447;&#x0435;&#x0440;&#x0435;&#x0437; &#x0438;&#x043D;&#x0434;&#x0438;&#x0432;&#x0438;&#x0434;&#x0443;&#x0430;&#x043B;&#x044C;&#x043D;&#x044B;&#x0439; &#x043B;&#x043E;&#x0433;&#x0438;&#x043D; &#x0438; &#x043F;&#x0430;&#x0440;&#x043E;&#x043B;&#x044C;. " />
+        <Replace name="booking\hoteler" />
+        <Replace name="\messag" />
+        <Replace name=" / " />
         <Replace name="/" />
         <Replace name=".bat;" />
         <Replace name=".cmd;" />
@@ -128,9 +129,6 @@
         <Replace name="  " />
         <Replace name="panels" />
         <Replace name="d:\\Develop\\Projects\\dbdata\\https" />
-        <Replace name="-" />
-        <Replace name="&#xD83D;&#xDCB5;&#x0009; " />
-        <Replace name="&#xD83D;&#xDCDA;&#x0009; " />
     </FindHistory>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>

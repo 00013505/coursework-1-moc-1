@@ -1,8 +1,6 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="0">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1520" startPos="222" endPos="222" selMode="0" lang="AutoIt" encoding="-1" filename="D:\Develop\System\AutoIT\Element\System\Clipboard\HTML\CodePaster\CodePaster.au3" />
-        </mainView>
+        <mainView activeIndex="0" />
         <subView activeIndex="0" />
     </Session>
 </NotepadPlus>
