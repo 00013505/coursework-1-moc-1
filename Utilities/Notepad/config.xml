@@ -109,6 +109,7 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="restobox" />
         <Find name="xusa" />
         <Find name="husa" />
         <Find name="SmartTech" />
@@ -118,7 +119,6 @@
         <Find name="core" />
         <Find name="hoteler" />
         <Find name="hotel" />
-        <Find name="booking\hotels" />
         <Replace name="Smart Software" />
         <Replace name="SmartTech" />
         <Replace name="TeamPRO" />
