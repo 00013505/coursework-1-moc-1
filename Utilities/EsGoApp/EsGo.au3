@@ -6,8 +6,6 @@
 #include <MyUDFs\Log.au3>
 
 
-
-
 Global $UDFName = 'EsGo'
 
 
