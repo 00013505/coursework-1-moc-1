@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="112" y="50" width="819" height="560" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="82" y="37" width="819" height="560" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -110,17 +110,19 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="," />
+        <Find name="pusher" />
+        <Find name="**" />
+        <Find name="business" />
+        <Find name="&#x00AB;Zip24.com&#x00BB;" />
+        <Find name=" " />
         <Find name="dev" />
         <Find name="ever" />
         <Find name="evere" />
         <Find name="\" />
-        <Find name="MChJ" />
-        <Find name="226" />
-        <Find name="oyina.uz" />
-        <Find name="toxi" />
-        <Find name="oyina" />
-        <Find name="avaz" />
+        <Replace name="Zip24.com" />
+        <Replace name=" \r\n" />
         <Replace name="/" />
         <Replace name="LLC" />
         <Replace name="Smart Software" />
@@ -129,8 +131,6 @@
         <Replace name="booking\hoteler" />
         <Replace name="\messag" />
         <Replace name=" / " />
-        <Replace name=".bat;" />
-        <Replace name=".cmd;" />
     </FindHistory>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
