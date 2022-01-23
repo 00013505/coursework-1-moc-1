@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="55" y="25" width="819" height="560" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="49" y="23" width="819" height="560" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -91,7 +91,7 @@
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <PluginDlg pluginName="FunctionList.dll" id="0" curr="1" prev="4" isVisible="yes" />
-            <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="no" />
+            <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="4" prev="1" isVisible="no" />
@@ -110,7 +110,9 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="sardo" />
+        <Find name="ibrox" />
         <Find name="mutalie" />
         <Find name="   " />
         <Find name="nemat" />
@@ -119,8 +121,6 @@
         <Find name="dske" />
         <Find name="youd" />
         <Find name="ibro" />
-        <Find name="bookforme.teampro.uz" />
-        <Find name="**" />
         <Replace name="  " />
         <Replace name="Zip24.com" />
         <Replace name=" \r\n" />

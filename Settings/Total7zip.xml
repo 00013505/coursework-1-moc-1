@@ -65,6 +65,7 @@
 			<ext val="cab" />
 		</format>
 		<format description="Nsis" guid="{23170F69-40C1-278A-1000-000110090000}">
+			<ext val="exe" />
 			<ext val="nsis" />
 		</format>
 		<format description="lzma" guid="{23170F69-40C1-278A-1000-0001100A0000}">

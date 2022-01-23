@@ -1,6 +1,9 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="0" />
+        <mainView activeIndex="1">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="858" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="D:\Develop\Projects\video\Academy\Millions\one_million_coders_text\one_million_coders.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="858" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\Administrator\AppData\Local\Temp\12\_tc\one_million_coders_text\one_million_coders.txt" />
+        </mainView>
         <subView activeIndex="0" />
     </Session>
 </NotepadPlus>
